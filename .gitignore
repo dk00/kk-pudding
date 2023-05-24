@@ -1,0 +1,15 @@
+node_modules/
+*.log
+.DS_Store
+errorShots/
+.vscode
+yarn-cache
+cache.zip
+.eslintcache
+.next
+out
+public
+coverage
+.husky/_
+.idea/
+.vercel

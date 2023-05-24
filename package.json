@@ -1,0 +1,16 @@
+{
+  "name": "mock-playcraft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "vercel": "^24.2.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2"
+  }
+}
