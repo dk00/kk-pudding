@@ -1,10 +1,13 @@
 const fetch = require('node-fetch')
 
-const vidMap = {
+const machines = {
   'e8-west': '60474a49f9075f39bc72c52b5b348609',
   'e8-east': 'faa62cfd575a3de6d43098c0af1b4933',
   'kh-west': 'd714f0cd4123bde0a25b1a6adab930e3',
   'kh-east': '47ee91a0af98e749754f30cf7d756164',
+  'h11-north': '3e9f1c51186faf024b97d8f712244c46',
+  'h11-south-1': '1d2087a9025e6e25c4bf7718db71f223',
+  'h11-south-2': '74d70ccb2cc19fdfdf0e6d541c5bec21',
 }
 
 const options = {
@@ -45,7 +48,7 @@ const waitStatus = async options =>
   )
 
 const dropPudding = async ({vid: vidParam, staffId}) => {
-  const vid = vidMap[vidParam] || vidParam
+  const vid = machines[vidParam] || vidParam
   const data = {
     vid,
     staff_id: staffId,
@@ -70,4 +73,4 @@ const dropPudding = async ({vid: vidParam, staffId}) => {
     })
 }
 
-export {dropPudding}
+export {dropPudding, machines}
