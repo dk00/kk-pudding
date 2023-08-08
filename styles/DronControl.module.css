@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.machineList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.machineList button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  flex: 8rem 0;
+  font-size: inherit;
+}
+
+.machineList button:active {
+  background: #a62;
+}
+
+.container input {
+  font-size: 100%;
+  margin: 0 0.5rem;
+}

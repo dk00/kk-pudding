@@ -69,7 +69,7 @@ const dropPudding = async ({vid: vidParam, staffId}) => {
     .then(res => res.text())
     .then(result => {
       console.log(result)
-      result
+      return result
     })
 }
 
