@@ -1,7 +1,10 @@
 const withPWA = require('next-pwa')({
-  dest: 'public'
+  dest: 'public',
+  fallbacks: {
+    document: '/offline-home.html',
+  }
 })
 
 module.exports = withPWA({
-  // next.js config
+  output: 'export'
 })

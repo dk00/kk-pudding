@@ -1,0 +1,66 @@
+{
+  "name": "Pudding Drop",
+  "short_name": "Pudding Drop",
+  "icons": [
+    {
+      "src": "/icons/pudding.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#A62",
+  "background_color": "#000000",
+  "start_url": "/",
+  "shortcuts": [
+    {
+      "name": "E8 drinks",
+      "url": "/?v=e8-west",
+      "description": "Get a drink from the E8 vending machine",
+      "icons": [
+        {
+          "src": "/icons/beer-e8.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "E8 eats",
+      "url": "/?v=e8-east",
+      "description": "Get something to eat from the E8 vending machine",
+      "icons": [
+        {
+          "src": "/icons/pudding-e8.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "KH drinks",
+      "url": "/?v=kh-west",
+      "description": "Get a drink from the KH vending machine",
+      "icons": [
+        {
+          "src": "/icons/beer-kh.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "KH eats",
+      "url": "/?v=kh-east",
+      "description": "Get something to eat from the KH vending machine",
+      "icons": [
+        {
+          "src": "/icons/pudding-kh.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait"
+}
