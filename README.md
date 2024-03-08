@@ -2,7 +2,7 @@
 
 ## Endpoints
 
-- `https://pudding-delta.vercel.app/api/pudding?vid=<machine-alias>&staffId=<your-staff-id>`
+- `https://pudding-delta.vercel.app/api/pudding?vid=<machine-id-or-alias>&staffId=<your-staff-id>`
 
 ## Reverse Engineering
 
@@ -72,6 +72,9 @@ If pay with a non existing staff id:
 | ---------------------------------------------------------------------------------- | -------------------------------- |
 | [E8 West](https://pay.yallvend.com/kkcompany?vid=60474a49f9075f39bc72c52b5b348609) | 60474a49f9075f39bc72c52b5b348609 |
 | [E8 East](https://pay.yallvend.com/kkcompany?vid=faa62cfd575a3de6d43098c0af1b4933) | faa62cfd575a3de6d43098c0af1b4933 |
+| [H11 right](https://pay.yallvend.com/kkcompany?vid=3e9f1c51186faf024b97d8f712244c46) | 3e9f1c51186faf024b97d8f712244c46 |
+| [H11 mid](https://pay.yallvend.com/kkcompany?vid=60474a49f9075f39bc72c52b5b348609) | 60474a49f9075f39bc72c52b5b348609 |
+| [H11 left](https://pay.yallvend.com/kkcompany?vid=faa62cfd575a3de6d43098c0af1b4933) | faa62cfd575a3de6d43098c0af1b4933 |
 | [KH East](https://pay.yallvend.com/kkcompany?vid=47ee91a0af98e749754f30cf7d756164) | 47ee91a0af98e749754f30cf7d756164 |
 | [KH West](https://pay.yallvend.com/kkcompany?vid=d714f0cd4123bde0a25b1a6adab930e3) | d714f0cd4123bde0a25b1a6adab930e3 |
 

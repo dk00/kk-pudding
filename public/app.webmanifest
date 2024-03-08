@@ -13,24 +13,36 @@
   "start_url": "/",
   "shortcuts": [
     {
-      "name": "E8 drinks",
-      "url": "/?v=e8-west",
-      "description": "Get a drink from the E8 vending machine",
+      "name": "TPE Right",
+      "url": "/?v=tpe-right",
+      "description": "Get a drink from the Taipei right vending machine",
       "icons": [
         {
-          "src": "/icons/beer-e8.png",
+          "src": "/icons/pudding.png",
           "sizes": "96x96",
           "type": "image/png"
         }
       ]
     },
     {
-      "name": "E8 eats",
-      "url": "/?v=e8-east",
-      "description": "Get something to eat from the E8 vending machine",
+      "name": "TPE Mid",
+      "url": "/?v=tpe-mid",
+      "description": "Get a drink from the Taipei middle vending machine",
       "icons": [
         {
-          "src": "/icons/pudding-e8.png",
+          "src": "/icons/pudding.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "TPE Left",
+      "url": "/?v=tpe-left",
+      "description": "Get a drink from the Taipei left vending machine",
+      "icons": [
+        {
+          "src": "/icons/pudding.png",
           "sizes": "96x96",
           "type": "image/png"
         }
